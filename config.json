@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://raw.githubusercontent.com/anneherz/ProM/23beda37b1354a4574bf062c0c933747d73f963a/assets/images/20230105_prom-icon_color.svg",
+    "link": "https://www.prosopographia-memphitica.com",
+    "text": "Anne Herzberg-Beiersdorf"
+  },
+  "text": {
+    "more": "The network visualizes the relationships between individuals and the titles they held. It consists of 238 nodes and 241 edges and represents a bipartite affiliation network linking persons with their associated titles. In this structure, individuals are connected to the offices or roles they held, creating a network that highlights patterns of title distribution among members of the elite.\n\nThe visualization reveals that some titles act as important connectors within the network because they are shared by several individuals. At the same time, certain individuals occupy more central positions due to the large number of titles associated with them, which may reflect their higher administrative or military status. The overall structure suggests clusters corresponding to different spheres of activity, such as administration, military service, royal court society, cultic personnel, and service and supply.\n\nAs a result, the network provides a structural overview of how offices and titles were distributed among individuals and illustrates the interconnected nature of elite positions within the administrative and military system.",
+    "intro": "This bipartite network visualizes individuals and the titles they held in the Memphite corpus during the post-Amarna and Ramesside periods (1334–1077 BC). It includes all persons attested with military titles and their additional offices, highlighting the connections between military officials and broader administrative domains.",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "military officials and their titles grouped by administrative sectors",
+    "colorLabel": "purple: persons; green: administrative titles; blue: military titles; orange: titles related afilliated to the royal court; dark green: cultic titles; pink: titles affiliated to service\u0026supply",
+    "nodeLabel": "persons; titles"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "maingroup",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
