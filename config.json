@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://github.com/anneherz/ProM/blob/23beda37b1354a4574bf062c0c933747d73f963a/assets/images/20230105_prom-icon_color.svg",
+    "link": "https://www.prosopographia-memphitica.com",
+    "text": "Anne Herzberg-Beiersdorf"
+  },
+  "text": {
+    "more": "The network visualizes the relationships between individuals and the titles they held during the **post-Amarna and Ramesside periods (1334–1077 BC)**. It is based on the **Memphite person corpus**, from which all individuals holding **at least one military title** were selected. While the dataset therefore focuses on military officials, it also includes the **additional titles these individuals held in other administrative spheres**, allowing the visualization to illustrate how military personnel were embedded within broader administrative structures.\n\nThe graph represents a **bipartite affiliation network** linking individuals and titles. Nodes correspond to either **persons or titles**, while edges indicate that a particular individual held a specific title. The network comprises **238 nodes and 241 edges** and forms an **undirected graph**. With an **average degree of 2.025**, a **network diameter of 13**, and a **low density of 0.009**, the network is relatively sparse, reflecting the fact that most individuals are associated with only a small number of titles. The **average path length of 5.891** nevertheless indicates that the network remains structurally connected. A **modularity score of 0.83** suggests the presence of clearly defined structural clusters.\n\nTitles are **color-coded according to administrative domains**, including **administration, military, royal court society, cultic personnel, and service and supply**, while persons form a separate node category. The distribution of node types shows that **persons constitute the largest share of the network (34.87%)**, followed by **administrative titles (25.21%)** and **military titles (23.11%)**. Titles associated with **royal court society account for 7.56%**, **cultic personnel for 5.88%**, and **service and supply positions for 3.36%**. These proportions demonstrate that **military and administrative offices dominate the dataset and form the primary focus of the network structure**.\n\nSeveral titles function as **central connectors within the network**, as they are associated with multiple individuals. Among these, **ḥr.j pḏ.t (“troop commander”)** stands out as a particularly prominent node, linking a relatively large number of persons and suggesting both its frequent attestation and structural importance within the military hierarchy. Similarly, **jm.j-rʾ mšꜥ (“general”)** occupies a central position and connects several individuals within the network.\n\nThe visualization also highlights **structurally prominent individuals**, whose larger node size reflects the number of titles they held. **Amenemone**, for instance, appears as a highly connected node, indicating that he held numerous titles and likely occupied a significant administrative or military position. **Nakhtmin** likewise occupies a relatively central position, suggesting that he held multiple military or administrative offices and was connected to several key titles.\n\nOverall, the network demonstrates that military officials were **closely integrated into broader administrative frameworks**, rather than forming a strictly separate military hierarchy. The strong presence and interconnection of **military and administrative titles** highlight the overlapping nature of elite offices in Memphis during the **late New Kingdom**.\n",
+    "intro": "Here is a **short academic description in English** that fits what your network visualizes:\n\nThe network visualizes the relationships between individuals and the titles they held. It consists of **238 nodes and 241 edges** and represents a **bipartite affiliation network** linking persons with their associated titles. In this structure, individuals are connected to the offices or roles they held, creating a network that highlights patterns of title distribution among members of the elite.\n\nThe visualization reveals that some titles act as important connectors within the network because they are shared by several individuals. At the same time, certain individuals occupy more central positions due to the large number of titles associated with them, which may reflect their higher administrative or military status. The overall structure suggests clusters corresponding to different spheres of activity, such as **administration, military service, royal court society, cultic personnel, and service and supply**.\n\nAs a result, the network provides a structural overview of how offices and titles were distributed among individuals and illustrates the interconnected nature of elite positions within the administrative and military system.\n",
+    "title": "Dr."
+  },
+  "legend": {
+    "edgeLabel": "military officials and their titles grouped by administrative sectors",
+    "colorLabel": "purple: persons; green: administrative titles; blue: military titles; orange: titles related afilliated to the royal court; dark green: cultic titles; pink: titles affiliated to service\u0026supply",
+    "nodeLabel": "persons; titles"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "maingroup",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
